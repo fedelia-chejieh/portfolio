@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+.body {
+  color: #333;
+  background-color: #fff;
+
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.container {
+  z-index: 500;
+  position: relative;
+}
+
+.wrapper {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10%;
+  padding-right: 5%;
+  position: relative;
+}
+
+.left-section {
+  width: 25%;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  display: flex;
+  position: fixed;
+}
+
+.content.main-content {
+  margin-left: -10%;
+  padding-top: 40%;
+}
