@@ -17,6 +17,22 @@ h1,
 h2 {
   font-family: "Rubik", sans-serif;
   color: #1a1818;
+  line-height: 1.3;
+  text-align: left;
+}
+
+h1 {
+  font-size: 37px;
+  overflow-wrap: break-word;
+}
+
+h2 {
+  font-size: 30px;
+  white-space: nowrap;
+}
+h2 span {
+  white-space: pre-wrap;
+  word-break: break-word;
 }
 
 h1 span {
@@ -37,6 +53,7 @@ ul {
 .header p {
   font-size: 30px;
   font-family: "Montserrat", sans-serif;
+  text-align: left;
 }
 
 .desc p {
@@ -64,12 +81,13 @@ ul {
   justify-content: center;
   align-items: flex-start;
   display: flex;
-  position: fixed;
+  position: absolute;
 }
 
 .content.main-content {
   margin-left: -25%;
   padding-top: -100px;
+  text-wrap: wrap;
 }
 
 nav {
@@ -130,15 +148,16 @@ nav a:hover {
 .menu-items li a:hover {
   cursor: pointer;
   color: #91a2b7;
+  text-decoration: overline;
 }
 
 .right-section {
-  width: 70%;
+  width: 65%;
   height: 90%;
   float: right;
   padding-top: 0;
-  position: relative;
-  top: -40px;
+  position: absolute;
+  top: 5%;
   bottom: 0%;
   left: auto;
   right: 0%;
@@ -155,7 +174,7 @@ nav a:hover {
 .images img {
   height: 100%;
   position: absolute;
-  left: 50%;
+  left: 40%;
   bottom: 0;
   transform: translateX(-50%);
   transition: bottom 1s, left 1s;
@@ -171,5 +190,38 @@ nav a:hover {
 }
 
 .images:hover .my-photo {
-  left: 45% !important;
+  left: 45%;
+}
+
+.about-section {
+  padding-top: 100px;
+  background: #f0ece2;
+}
+
+#about #skills_section .col-6 {
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  #about #skills_section img {
+    height: 2.5rem;
+  }
+}
+
+#about p {
+  font-family: var(--default-font-family);
+}
+
+#about h2 {
+  text-align: center;
+}
+
+.widget-wrap {
+  border-style: solid;
+  border-width: 3px 1.5px;
+  border-color: #c6c6c6;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  padding: 40px 30px;
 }
