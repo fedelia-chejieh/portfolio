@@ -102,12 +102,13 @@ nav a:not(span ul a) {
   text-decoration: none;
   color: #596e79;
   font-weight: 900;
-  font-size: larger;
+  font-size: large;
   transition: all 200ms ease-in-out;
 }
 
 nav a:hover {
   color: #91a2b7;
+  font-size: larger;
 }
 
 .navTop {
@@ -149,6 +150,7 @@ nav a:hover {
   cursor: pointer;
   color: #91a2b7;
   text-decoration: overline;
+  font-size: larger;
 }
 
 .right-section {
@@ -165,10 +167,10 @@ nav a:hover {
 
 .images {
   width: 50%;
-  height: 78%;
+  height: 77%;
   position: absolute;
   bottom: 0;
-  right: 100px;
+  right: 50px;
 }
 
 .images img {
@@ -181,12 +183,12 @@ nav a:hover {
 }
 
 .my-photo {
-  top: -28%;
+  top: -30%;
   right: -100%;
 }
 
 .images:hover .shape {
-  bottom: 40px;
+  bottom: 50px;
 }
 
 .images:hover .my-photo {
@@ -194,7 +196,7 @@ nav a:hover {
 }
 
 .about-section {
-  padding-top: 100px;
+  padding-top: 150px;
   background: #f0ece2;
 }
 
@@ -224,4 +226,95 @@ nav a:hover {
   border-color: #c6c6c6;
   transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
   padding: 40px 30px;
+}
+
+#portfolio {
+  margin-bottom: 3rem;
+  background: #f0ece2;
+}
+#portfolio h2 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.project-section {
+  padding-top: 180px;
+}
+
+#portfolio .project {
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 3px 6px #0003;
+}
+
+#portfolio .project img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+#portfolio .project .details {
+  width: 100%;
+  height: 100%;
+  transition: 0.4s all ease-in-out;
+  background-color: #0006;
+  color: #fff;
+  clip-path: circle(0% at 0 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 5;
+}
+
+#portfolio .project:hover .details {
+  clip-path: circle(141.1% at 0 0);
+}
+
+#portfolio .project .details .technology {
+  min-width: 50%;
+  position: absolute;
+  bottom: 2%;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#portfolio .project .details .technology img {
+  width: 2rem;
+  display: block;
+}
+
+#portfolio .project .details p {
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+#portfolio .project .details .links_project {
+  width: 20%;
+  font-size: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#portfolio .project .details .links_project a {
+  text-decoration: none;
+  color: #91a2b7;
+}
+
+#portfolio .project .details .links_project a i {
+  color: #fff;
+  transition: 0.4s all ease-in-out;
+}
+
+@media screen and (min-width: 992px) {
+  #portfolio .project .details p {
+    font-size: 1.5rem;
+  }
 }
