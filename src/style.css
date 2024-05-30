@@ -170,16 +170,17 @@ nav a:hover {
   height: 77%;
   position: absolute;
   bottom: 0;
-  right: 50px;
+  top: 170px;
+  right: 120px;
 }
 
 .images img {
   height: 100%;
   position: absolute;
-  left: 40%;
+  right: 43%;
   bottom: 0;
-  transform: translateX(-50%);
-  transition: bottom 1s, left 1s;
+  transform: translateX(50%);
+  transition: bottom 1s, right 1s;
 }
 
 .my-photo {
@@ -192,7 +193,7 @@ nav a:hover {
 }
 
 .images:hover .my-photo {
-  left: 45%;
+  right: 48%;
 }
 
 .about-section {
@@ -317,4 +318,17 @@ nav a:hover {
   #portfolio .project .details p {
     font-size: 1.5rem;
   }
+}
+
+.see-more {
+  color: #596e79;
+  border-color: #596e79;
+  padding: 12px 15px;
+  font-size: larger;
+  border-radius: 40px;
+}
+
+.see-more:hover {
+  background-color: #a5b3c7;
+  border-color: #a5b3c7;
 }
