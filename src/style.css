@@ -102,13 +102,13 @@ nav a:not(span ul a) {
   text-decoration: none;
   color: #596e79;
   font-weight: 900;
-  font-size: large;
+  font-size: 25px;
   transition: all 200ms ease-in-out;
 }
 
 nav a:hover {
   color: #91a2b7;
-  font-size: larger;
+  font-size: 28px;
 }
 
 .navTop {
@@ -137,7 +137,7 @@ nav a:hover {
   display: inline;
   margin: 0 10px;
   font-weight: 600;
-  font-size: larger;
+  font-size: 25px;
 }
 
 .menu-items li a {
@@ -150,7 +150,7 @@ nav a:hover {
   cursor: pointer;
   color: #91a2b7;
   text-decoration: overline;
-  font-size: larger;
+  font-size: 28px;
 }
 
 .right-section {
