@@ -326,9 +326,15 @@ nav a:hover {
   padding: 12px 15px;
   font-size: larger;
   border-radius: 40px;
+  margin-bottom: 65px;
 }
 
 .see-more:hover {
   background-color: #a5b3c7;
   border-color: #a5b3c7;
+}
+
+#contact-me {
+  position: fixed;
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/128/383/original/compare-fibre-INNsF0Zz_kQ-unsplash.jpg?1717796361");
 }
