@@ -261,7 +261,8 @@ nav a:hover {
   height: 100%;
   transition: 0.4s all ease-in-out;
   background-color: #0002;
-  color: #fff;
+  color: #feffdf;
+  font-weight: 700;
   clip-path: circle(0% at 0 0);
   position: absolute;
   top: 0;
