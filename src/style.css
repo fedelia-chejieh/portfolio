@@ -96,20 +96,19 @@ nav {
   color: #596e79;
   padding: 30px 30px;
   margin-top: 2px;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
   line-height: 1;
 }
 nav a:not(span ul a) {
   text-decoration: none;
   color: #596e79;
   font-weight: 900;
-  font-size: 25px;
+  font-size: 35px;
   transition: all 200ms ease-in-out;
 }
 
 nav a:hover {
   color: #91a2b7;
-  font-size: 28px;
+  font-size: 37px;
 }
 
 .navTop {
@@ -117,6 +116,8 @@ nav a:hover {
   align-items: center;
   justify-content: space-between;
   margin: 0 47px;
+  position: relative;
+  top: -10px;
 }
 
 .navItems {
