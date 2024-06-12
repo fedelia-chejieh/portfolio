@@ -106,7 +106,7 @@ nav a:not(span ul a) {
   transition: all 200ms ease-in-out;
 }
 
-nav a:hover {
+nav li:hover {
   color: #91a2b7;
   font-size: 37px;
 }
@@ -118,6 +118,11 @@ nav a:hover {
   margin: 0 47px;
   position: relative;
   top: -10px;
+}
+
+.navTop a:hover {
+  color: #91a2b7;
+  font-size: 43px;
 }
 
 .navItems {
@@ -155,24 +160,12 @@ nav a:hover {
   font-size: 28px;
 }
 
-.right-section {
-  width: 65%;
-  height: 90%;
-  float: right;
-  padding-top: 0;
-  position: absolute;
-  top: 5%;
-  bottom: 0%;
-  left: auto;
-  right: 0%;
-}
-
 .images {
   width: 50%;
   height: 77%;
   position: absolute;
   bottom: 0;
-  top: 170px;
+  top: 90px;
   right: 120px;
 }
 
@@ -185,12 +178,19 @@ nav a:hover {
   transition: bottom 1s, right 1s;
 }
 
-.my-photo {
-  top: -30%;
+.myphoto img {
+  width: 500%;
+  height: 500%;
+}
+
+.myPhoto {
+  top: -35%;
   right: -100%;
 }
 
 .images:hover .shape {
+  height: 300px;
+  width: 300px;
   bottom: 50px;
 }
 
