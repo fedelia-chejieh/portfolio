@@ -161,8 +161,8 @@ nav li:hover {
 }
 
 .images {
-  width: 50%;
-  height: 77%;
+  width: 30%;
+  height: 100%;
   position: absolute;
   bottom: 0;
   top: 90px;
@@ -172,26 +172,21 @@ nav li:hover {
 .images img {
   height: 100%;
   position: absolute;
-  right: 43%;
+  left: 43%;
   bottom: 0;
-  transform: translateX(50%);
-  transition: bottom 1s, right 1s;
 }
 
-.myphoto img {
-  width: 500%;
-  height: 500%;
+.images .shape {
+  height: 400px;
+  width: 400px;
+  top: 100px;
 }
 
-.myPhoto {
-  top: -35%;
-  right: -100%;
-}
-
-.images:hover .shape {
-  height: 300px;
-  width: 300px;
-  bottom: 50px;
+.images .myPhoto {
+  height: 500px;
+  width: 500px;
+  left: 45px;
+  top: -100px;
 }
 
 .images:hover .my-photo {
