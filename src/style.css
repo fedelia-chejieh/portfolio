@@ -22,7 +22,7 @@ h3 {
   text-align: left;
 }
 
-h1 {
+.header h1 {
   font-size: 37px;
   overflow-wrap: break-word;
 }
@@ -44,6 +44,15 @@ ul {
   margin-bottom: 0;
 }
 
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.intro {
+  padding-top: 250px;
+  margin-left: -80px;
+}
 .hero {
   position: relative;
   width: 100%;
@@ -86,9 +95,9 @@ ul {
 }
 
 .content.main-content {
-  margin-left: -25%;
-  padding-top: -100px;
   text-wrap: wrap;
+  width: 400px;
+  font-size: 18px;
 }
 
 nav {
@@ -165,7 +174,7 @@ nav li:hover {
   height: 100%;
   position: absolute;
   bottom: 0;
-  top: 90px;
+  top: 10px;
   right: 120px;
 }
 
