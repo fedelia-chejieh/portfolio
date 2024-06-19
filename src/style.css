@@ -129,11 +129,6 @@ nav li:hover {
   top: -10px;
 }
 
-.navTop a:hover {
-  color: #91a2b7;
-  font-size: 43px;
-}
-
 .navItems {
   position: relative;
   left: 100px;
@@ -163,10 +158,7 @@ nav li:hover {
 }
 
 .menu-items li a:hover {
-  cursor: pointer;
-  color: #91a2b7;
-  text-decoration: overline;
-  font-size: 28px;
+  color: #a5b3c7;
 }
 
 .images {
@@ -175,7 +167,7 @@ nav li:hover {
   position: absolute;
   bottom: 0;
   top: 10px;
-  right: 120px;
+  right: 170px;
 }
 
 .images img {
@@ -188,14 +180,14 @@ nav li:hover {
 .images .shape {
   height: 400px;
   width: 400px;
-  top: 100px;
+  top: 200px;
 }
 
 .images .myPhoto {
-  height: 500px;
-  width: 500px;
+  height: 600px;
+  width: 600px;
   left: 45px;
-  top: -100px;
+  top: 100px;
 }
 
 .images:hover .my-photo {
