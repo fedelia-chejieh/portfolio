@@ -111,8 +111,13 @@ nav a:not(span ul a) {
   text-decoration: none;
   color: #596e79;
   font-weight: 900;
-  font-size: 35px;
+  font-size: 40px;
   transition: all 200ms ease-in-out;
+}
+
+nav a:not(span ul a):hover {
+  font-size: 50px;
+  color: #a5b3c7;
 }
 
 nav li:hover {
